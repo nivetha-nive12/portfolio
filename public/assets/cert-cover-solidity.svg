@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title">
+  <title id="title">Solidity cover</title>
+  <rect width="900" height="560" rx="28" fill="#fbfaf7"/>
+  <rect x="58" y="58" width="784" height="444" rx="24" fill="#edf4f2" stroke="#0f766e" stroke-width="10"/>
+  <path d="M450 92l104 178-104 62-104-62z" fill="#111827"/>
+  <path d="M450 468L346 290l104-62 104 62z" fill="#0f766e"/>
+  <path d="M450 92v240l104-62z" fill="#c79336"/>
+  <text x="450" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#111827">SOLIDITY</text>
+</svg>

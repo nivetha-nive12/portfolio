@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-labelledby="title">
+  <title id="title">Infosys certificate preview</title>
+  <rect width="1000" height="700" rx="26" fill="#fbfaf7"/>
+  <rect x="48" y="48" width="904" height="604" rx="18" fill="#edf4f2" stroke="#0f766e" stroke-width="14"/>
+  <text x="500" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="800" fill="#111827">Infosys</text>
+  <text x="500" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" font-weight="800" fill="#111827">Database Management System</text>
+  <text x="500" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#111827">DBMS Learning Credential</text>
+  <text x="500" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#111827">Shanmuga Nivetha S</text>
+  <g fill="#c79336"><circle cx="430" cy="535" r="28"/><circle cx="500" cy="535" r="28"/><circle cx="570" cy="535" r="28"/></g>
+</svg>

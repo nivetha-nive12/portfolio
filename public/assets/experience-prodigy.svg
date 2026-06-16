@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title">
+  <title id="title">Prodigy Infotech</title>
+  <circle cx="90" cy="90" r="82" fill="#fbfaf7" stroke="#c79336" stroke-width="8"/>
+  <path d="M90 30l13 39 41 1-33 24 12 40-33-24-33 24 12-40-33-24 41-1z" fill="#0f766e"/>
+  <circle cx="90" cy="90" r="26" fill="#edf4f2"/>
+  <path d="M78 91l9 9 18-24" fill="none" stroke="#111827" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="90" y="154" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#111827">Prodigy</text>
+</svg>

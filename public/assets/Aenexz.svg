@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title">
+  <title id="title">Aenexz</title>
+  <circle cx="90" cy="90" r="82" fill="#fbfaf7" stroke="#ef6f5e" stroke-width="8"/>
+  <!-- Stylized "A" with tech lines -->
+  <path d="M90 35 L60 105 L75 105 L82 85 L98 85 L105 105 L120 105 Z" fill="#0f766e"/>
+  <rect x="82" y="85" width="16" height="5" fill="#c79336"/>
+  <!-- Tech accent lines -->
+  <line x1="50" y1="120" x2="70" y2="120" stroke="#c79336" stroke-width="3" stroke-linecap="round"/>
+  <line x1="110" y1="120" x2="130" y2="120" stroke="#c79336" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="90" cy="55" r="4" fill="#ef6f5e"/>
+  <text x="90" y="154" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#111827">Aenexz</text>
+</svg>

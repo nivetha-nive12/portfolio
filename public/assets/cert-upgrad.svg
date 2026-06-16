@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-labelledby="title">
+  <title id="title">UpGrad certificate preview</title>
+  <rect width="1000" height="700" rx="26" fill="#fbfaf7"/>
+  <rect x="50" y="50" width="900" height="600" rx="20" fill="#edf4f2" stroke="#ef6f5e" stroke-width="14"/>
+  <path d="M70 170h860" stroke="#c79336" stroke-width="12"/>
+  <text x="500" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" font-weight="800" fill="#111827">UpGrad</text>
+  <text x="500" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" font-weight="800" fill="#111827">Blockchain Features Simplified</text>
+  <text x="500" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#111827">Course Completion Credential</text>
+  <text x="500" y="452" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#111827">Shanmuga Nivetha S</text>
+  <circle cx="500" cy="540" r="48" fill="#0f766e"/>
+</svg>

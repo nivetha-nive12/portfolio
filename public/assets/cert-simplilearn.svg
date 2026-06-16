@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-labelledby="title">
+  <title id="title">Simplilearn certificate preview</title>
+  <rect width="1000" height="700" rx="26" fill="#fbfaf7"/>
+  <rect x="42" y="42" width="916" height="616" rx="22" fill="#edf4f2" stroke="#0f766e" stroke-width="12"/>
+  <rect x="42" y="42" width="916" height="110" rx="22" fill="#111827"/>
+  <text x="500" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="800" fill="#fff">Simplilearn</text>
+  <text x="500" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="800" fill="#111827">Blockchain Developer Training Course</text>
+  <text x="500" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#111827">Developer Training Certificate</text>
+  <text x="500" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#111827">Shanmuga Nivetha S</text>
+  <rect x="360" y="520" width="280" height="54" rx="27" fill="#c79336"/>
+  <text x="500" y="556" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#fff">Blockchain</text>
+</svg>

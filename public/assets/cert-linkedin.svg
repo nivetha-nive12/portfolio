@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-labelledby="title">
+  <title id="title">LinkedIn Learning certificate preview</title>
+  <rect width="1000" height="700" rx="26" fill="#fbfaf7"/>
+  <rect x="36" y="36" width="928" height="628" rx="18" fill="none" stroke="#0a7ab8" stroke-width="16"/>
+  <rect x="84" y="104" width="832" height="492" rx="18" fill="#edf4f2"/>
+  <text x="500" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="800" fill="#111827">LinkedIn Learning</text>
+  <text x="500" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="52" font-weight="800" fill="#111827">Blockchain: Learning Solidity</text>
+  <text x="500" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#111827">Smart Contract Development</text>
+  <text x="500" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#111827">Shanmuga Nivetha S</text>
+  <rect x="390" y="500" width="220" height="54" rx="27" fill="#0f766e"/>
+  <text x="500" y="536" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#fff">Verified</text>
+</svg>

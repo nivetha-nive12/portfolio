@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title">
+  <title id="title">Database cover</title>
+  <rect width="900" height="560" rx="28" fill="#fbfaf7"/>
+  <ellipse cx="450" cy="150" rx="210" ry="70" fill="#0f766e"/>
+  <path d="M240 150v230c0 39 94 70 210 70s210-31 210-70V150" fill="#edf4f2" stroke="#0f766e" stroke-width="12"/>
+  <ellipse cx="450" cy="150" rx="210" ry="70" fill="none" stroke="#111827" stroke-width="12"/>
+  <path d="M240 265c0 39 94 70 210 70s210-31 210-70M240 380c0 39 94 70 210 70s210-31 210-70" fill="none" stroke="#c79336" stroke-width="12"/>
+  <text x="450" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="900" fill="#111827">DATABASE</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title">
+  <title id="title">Developer training cover</title>
+  <rect width="900" height="560" rx="28" fill="#fbfaf7"/>
+  <rect x="96" y="100" width="708" height="326" rx="26" fill="#111827"/>
+  <circle cx="135" cy="137" r="12" fill="#ef6f5e"/>
+  <circle cx="175" cy="137" r="12" fill="#c79336"/>
+  <circle cx="215" cy="137" r="12" fill="#0f766e"/>
+  <path d="M300 270l-72 58 72 58M600 270l72 58-72 58M495 230l-90 188" fill="none" stroke="#fbfaf7" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450" y="503" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#111827">DEVELOPER TRAINING</text>
+</svg>

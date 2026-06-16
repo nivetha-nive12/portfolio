@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">Temporary certificate badge</title>
+  <rect x="27" y="34" width="106" height="82" rx="10" fill="#fbfaf7" stroke="#0f766e" stroke-width="7"/>
+  <path d="M47 60h66M47 80h45M47 100h32" stroke="#111827" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="109" cy="101" r="15" fill="#ef6f5e"/>
+  <path d="M100 118l-7 20 16-8 16 8-7-20" fill="#c79336"/>
+</svg>

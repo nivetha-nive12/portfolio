@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title">
+  <title id="title">Web3 cover</title>
+  <rect width="900" height="560" rx="28" fill="#edf4f2"/>
+  <path d="M155 365c62-150 190-228 310-176 102 44 139 12 205-45 30-26 63-54 105-65" fill="none" stroke="#ef6f5e" stroke-width="22" stroke-linecap="round"/>
+  <path d="M155 420c112-100 213-126 302-80 107 55 185 27 288-76" fill="none" stroke="#0f766e" stroke-width="22" stroke-linecap="round"/>
+  <g fill="#fff" stroke="#111827" stroke-width="9">
+    <circle cx="198" cy="344" r="42"/>
+    <circle cx="450" cy="260" r="54"/>
+    <circle cx="710" cy="184" r="42"/>
+    <circle cx="622" cy="382" r="48"/>
+  </g>
+  <text x="450" y="513" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="900" fill="#111827">WEB3 FEATURES</text>
+</svg>

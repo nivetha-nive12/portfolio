@@ -1,0 +1,33 @@
+{
+  "name": "Shanmuga Nivetha S",
+  "title": "Blockchain and Full-Stack Developer",
+  "email": "nive30410@gmail.com",
+  "phone": "+91 93854 73874",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/shanmuga-nivetha-s-676919289/",
+    "github": "https://github.com/nivetha-nive12"
+  },
+  "education": [
+    {
+      "institution": "National Engineering College, Kovilpatti",
+      "program": "Bachelor of Computer Science and Engineering",
+      "period": "2023-2027",
+      "score": "CGPA 8.56"
+    },
+    {
+      "institution": "Kanchi Sri Sankara Academy Matric Higher Secondary School",
+      "program": "Higher Secondary Certificate",
+      "year": "2023",
+      "score": "95.5%"
+    }
+  ],
+  "skills": ["Solidity", "Java", "Python", "C++", "JavaScript", "SQL", "Ethereum", "React", "Node.js", "Spring Boot", "MySQL", "MongoDB"],
+  "projects": [
+    "Merkle Tree Transaction Verifier",
+    "Digital Cinema Management Platform",
+    "Parent-Teacher Bridge Portal",
+    "Blockchain-Based Academic Bank of Credits",
+    "Automatic Fire Fighting Robot",
+    "Smart Rain Alert System"
+  ]
+}

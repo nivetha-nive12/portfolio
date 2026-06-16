@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-labelledby="title">
+  <title id="title">NPTEL certificate preview</title>
+  <rect width="1000" height="700" rx="26" fill="#fbfaf7"/>
+  <rect x="36" y="36" width="928" height="628" rx="18" fill="none" stroke="#0f766e" stroke-width="16"/>
+  <rect x="70" y="70" width="860" height="560" rx="12" fill="#edf4f2"/>
+  <text x="500" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="54" font-weight="800" fill="#111827">Certificate of Completion</text>
+  <text x="500" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#0f766e">NPTEL</text>
+  <text x="500" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" font-weight="800" fill="#111827">Blockchain and Its Applications</text>
+  <text x="500" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#111827">Awarded to Shanmuga Nivetha S</text>
+  <circle cx="500" cy="520" r="58" fill="#c79336"/>
+  <path d="M470 520l22 22 44-58" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

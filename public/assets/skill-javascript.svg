@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title id="title">JavaScript</title>
+  <rect x="14" y="14" width="92" height="92" rx="10" fill="#f7df1e"/>
+  <path d="M43 82c4 7 9 10 17 10 10 0 17-5 17-16V42H64v33c0 5-2 7-6 7-3 0-5-2-8-6z" fill="#111827"/>
+  <path d="M83 81c3 6 8 10 17 10 8 0 14-4 14-12 0-7-4-10-12-14l-3-1c-4-2-6-3-6-6 0-2 2-4 5-4s5 1 7 5l8-5c-4-7-9-10-15-10-10 0-16 6-16 14 0 9 5 12 13 16l3 1c4 2 6 3 6 6s-3 5-7 5c-5 0-8-3-10-7z" fill="#111827"/>
+</svg>

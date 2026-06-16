@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title id="title">MongoDB</title>
+  <path d="M60 8c22 20 35 42 30 65-4 19-16 31-30 39-14-8-26-20-30-39-5-23 8-45 30-65z" fill="#47a248"/>
+  <path d="M60 12v96" stroke="#2f7d32" stroke-width="7" stroke-linecap="round"/>
+  <path d="M60 108c-10-26-8-56 0-96 8 40 10 70 0 96z" fill="#67c15e"/>
+</svg>

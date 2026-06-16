@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title id="title">Ethereum</title>
+  <path d="M60 8l34 54-34 20-34-20z" fill="#627eea"/>
+  <path d="M60 112L26 68l34 20 34-20z" fill="#111827"/>
+  <path d="M60 8v74l34-20z" fill="#8fa2ff"/>
+</svg>

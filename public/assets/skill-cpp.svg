@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title id="title">C++</title>
+  <path d="M60 8l45 26v52l-45 26-45-26V34z" fill="#00599c"/>
+  <path d="M63 78c-4 3-9 5-15 5-14 0-24-10-24-23s10-23 24-23c6 0 11 2 15 5l-7 10c-2-2-5-3-8-3-7 0-11 5-11 11s4 11 11 11c3 0 6-1 8-3z" fill="#fff"/>
+  <path d="M78 52v8h-8v7h8v8h8v-8h8v-7h-8v-8zM100 52v8h-8v7h8v8h8v-8h8v-7h-8v-8z" fill="#fff"/>
+</svg>

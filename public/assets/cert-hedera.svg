@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-labelledby="title">
+  <title id="title">Hedera certificate preview</title>
+  <rect width="1000" height="700" rx="26" fill="#fbfaf7"/>
+  <rect x="56" y="56" width="888" height="588" rx="18" fill="#edf4f2" stroke="#111827" stroke-width="14"/>
+  <circle cx="500" cy="145" r="54" fill="#111827"/>
+  <text x="500" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" font-weight="900" fill="#fff">H</text>
+  <text x="500" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" font-weight="800" fill="#111827">Hashgraph Developer</text>
+  <text x="500" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#0f766e">Hedera</text>
+  <text x="500" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#111827">Awarded to Shanmuga Nivetha S</text>
+  <path d="M375 535h250" stroke="#c79336" stroke-width="12" stroke-linecap="round"/>
+</svg>

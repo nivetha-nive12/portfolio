@@ -1,0 +1,807 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Portfolio of Shanmuga Nivetha S, a Blockchain and Full-Stack Developer building secure dApps, web platforms, and practical hardware systems." />
+  <title>Shanmuga Nivetha S | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: "#111827",
+            paper: "#fbfaf7",
+            mint: "#0f766e",
+            coral: "#ef6f5e",
+            gold: "#c79336",
+            cloud: "#edf4f2",
+          },
+          fontFamily: {
+            sans: ["Inter", "ui-sans-serif", "system-ui", "Segoe UI", "sans-serif"],
+          },
+          boxShadow: {
+            soft: "0 18px 60px rgba(17, 24, 39, 0.12)",
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+
+<body class="bg-paper text-ink antialiased">
+  <div id="cursorAura" class="cursor-aura" aria-hidden="true"></div>
+  <div id="cursorSpark" class="cursor-spark" aria-hidden="true"><span></span></div>
+  <div id="cursorTrail" class="cursor-trail" aria-hidden="true"></div>
+  <header class="fixed inset-x-0 top-0 z-50 border-b border-ink/50 bg-paper/90 backdrop-blur">
+    <nav class="mx-auto flex max-w-8xl items-center justify-between px-10 py-4 lg:px-8" aria-label="Main navigation">
+      <a href="#home" class="flex items-center gap-3 font-semibold tracking-wide">
+        <span class="grid h-10 w-10 place-items-center rounded bg-mint text-sm font-black text-white">SN</span>
+        <span class="hidden sm:inline">Shanmuga Nivetha S</span>
+      </a>
+      <button id="menuToggle" class="grid h-10 w-10 place-items-center rounded border border-ink/15 md:hidden"
+        type="button" aria-label="Open menu" aria-expanded="false">
+        <span class="menu-lines"></span>
+      </button>
+      <div id="navMenu" class="nav-menu">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero-band min-h-screen pt-24">
+      <div
+        class="hero-layout mx-auto grid min-h-[calc(100vh-6rem)] max-w-8xl items-center gap-6 px-5 py-10 lg:grid-cols-[0.95fr_1.05fr] lg:px-12">
+        <div class="hero-copy">
+          <p class="eyebrow -mt-10 text-xl text-black">Blockchain Developer / Full-Stack Engineer</p><br><br>
+          <h1 class="hero-title text-5xl">
+            Hello,<br />
+            This is <span>Shanmuga Nivetha S</span>,<br />
+            I build <mark>secure dApps</mark> and full-stack systems.
+          </h1>
+          <p class="hero-summary text-xl">
+            Computer Science Engineering student with hands-on work in smart contracts, Ethereum tools, React,
+            Spring Boot, databases, and practical automation projects.
+          </p>
+
+          <div class="hero-socials" aria-label="Social links">
+            <a href="https://github.com/nivetha-nive12" target="_blank" rel="noreferrer" aria-label="GitHub">GH</a>
+            <a href="https://www.linkedin.com/in/shanmuga-nivetha-s-676919289/" target="_blank" rel="noreferrer"
+              aria-label="LinkedIn">in</a>
+            <a href="mailto:nive30410@gmail.com" aria-label="Email">@</a>
+            <a href="tel:+919385473874" aria-label="Phone">☎</a>
+          </div>
+
+          <div class="hero-actions">
+            <a class="btn-secondary hero-contact-btn" href="#contact">Contact Me</a>
+            <a class="btn-primary hero-resume-btn" href="public/downloads/Shanmuga_Nivetha_S_Resume.pdf" download>Get
+              Resume</a>
+          </div>
+        </div>
+
+        <div class="hero-code-window" aria-label="Developer profile code preview">
+          <div class="code-window-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <pre><code><span class="code-pink">const</span> developer = {
+  name: <span class="code-yellow">'Shanmuga Nivetha S'</span>,
+  role: <span class="code-green">'Blockchain & Full-Stack Developer'</span>,
+  skills: [
+    <span class="code-yellow">'Solidity'</span>, <span class="code-yellow">'Ethereum'</span>, <span class="code-yellow">'React'</span>,
+    <span class="code-yellow">'Spring Boot'</span>, <span class="code-yellow">'MySQL'</span>, <span class="code-yellow">'MongoDB'</span>
+  ],
+  cgpa: <span class="code-orange">8.62</span>,
+  projectsBuilt: <span class="code-orange">6</span>,
+  focus: <span class="code-green">'secure dApps + useful web products'</span>,
+  hireable: <span class="code-pink">function</span>() {
+    <span class="code-pink">return</span> (
+      this.skills.length &gt;= <span class="code-orange">6</span> &amp;&amp;
+      this.projectsBuilt &gt;= <span class="code-orange">6</span>
+    );
+  }
+};</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <section id="about" class="about-modern py-10">
+
+      <div class="about-bg-circle about-bg-circle-1"></div>
+      <div class="about-bg-circle about-bg-circle-2"></div>
+
+      <div class="about-container">
+
+        <div class="about-image-section">
+
+          <div class="about-image-wrapper">
+
+            <div class="about-image-border"></div>
+
+            <div class="about-image-box">
+              <img class="profile-photo" src="public/assets/nive pic for portfolio.png" alt="Shanmuga Nivetha S">
+            </div>
+
+            <div class="floating-card card-1">
+              <h4>Blockchain</h4>
+            </div>
+
+            <div class="floating-card card-2">
+              <h4>Full Stack</h4>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="about-content">
+
+          <p class="about-tag text-5xl text-black">ABOUT ME</p>
+
+          <h2 class="about-title">
+            Building Secure Digital
+            <span>Experiences</span>
+          </h2>
+
+          <p class="about-description">
+            I'm <strong>Shanmuga Nivetha S</strong>, a passionate
+            Blockchain and Full-Stack Developer focused on creating
+            secure decentralized applications and scalable web systems.
+          </p>
+
+          <p class="about-description">
+            My expertise includes Solidity, Ethereum, React,
+            Node.js, Spring Boot, MySQL, and MongoDB. I enjoy
+            transforming innovative ideas into practical solutions
+            that solve real-world problems.
+          </p>
+
+          <p class="about-description">
+            Beyond development, I continuously explore emerging
+            technologies, cybersecurity concepts, and modern
+            software architectures to stay ahead in the tech world.
+          </p>
+
+          <div class="about-stats">
+
+            <div class="about-stat">
+              <h3>6+</h3>
+              <span>Projects</span>
+            </div>
+
+            <div class="about-stat">
+              <h3>8.56</h3>
+              <span>CGPA</span>
+            </div>
+
+            <div class="about-stat">
+              <h3>3+</h3>
+              <span>Internships</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <hr class="section-divider" />
+
+    <section id="projects" class="section-wrap themed-section projects-showcase py-10 pb-12">
+      <div class="mx-auto max-w-8xl px-5 lg:px-16">
+        <div class="project-heading">
+          <div>
+            <p class="eyebrow text-5xl font-extrabold text-black">Projects</p>
+            <h2 class="text-black pt-1 font-bold text-xl">Selected builds across blockchain, web, and hardware</h2>
+            <p class="project-intro">
+              A practical collection of systems I have built while exploring smart contracts, full-stack engineering,
+              databases, and real-world automation.
+            </p>
+          </div>
+          <div class="filter-bar" aria-label="Project filters">
+            <button class="filter-btn active" data-filter="all" type="button">All</button>
+            <button class="filter-btn" data-filter="blockchain" type="button">Blockchain</button>
+            <button class="filter-btn" data-filter="web" type="button">Web</button>
+            <button class="filter-btn" data-filter="hardware" type="button">Hardware</button>
+          </div>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-card-featured reveal-card" data-category="blockchain">
+            <div class="project-card-top">
+              <span>Blockchain</span>
+              <strong>01</strong>
+            </div>
+            <div class="project-visual merkle-visual" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <div class="project-orbit" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <h3>Merkle Tree Transaction Verifier</h3>
+            <p>Verifies blockchain transactions using Merkle Trees with Ethereum Network, IPFS, and JavaScript.</p>
+            <ul>
+              <li>Ethereum</li>
+              <li>IPFS</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="project-card-footer">
+              <span>Verification logic</span>
+              <span>Decentralized data</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal-card" data-category="web">
+            <div class="project-card-top">
+              <span>Full Stack</span>
+              <strong>02</strong>
+            </div>
+            <div class="project-visual cinema-visual" aria-hidden="true">
+              <i></i><i></i><i></i>
+            </div>
+            <h3>Digital Cinema Management Platform</h3>
+            <p>Automates movie scheduling, ticket booking, and seat tracking using Spring Boot, REST APIs, and MySQL.
+            </p>
+            <ul>
+              <li>Spring Boot</li>
+              <li>REST APIs</li>
+              <li>MySQL</li>
+            </ul>
+          </article>
+
+          <article class="project-card reveal-card" data-category="web">
+            <div class="project-card-top">
+              <span>Web App</span>
+              <strong>03</strong>
+            </div>
+            <div class="project-visual portal-visual" aria-hidden="true">
+              <i></i><i></i><i></i>
+            </div>
+            <h3>Parent-Teacher Bridge Portal</h3>
+            <p>Connects teachers and parents through a React app backed by Node.js, Express, and MongoDB Atlas.</p>
+            <ul>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>MongoDB</li>
+            </ul>
+          </article>
+
+          <article class="project-card reveal-card" data-category="blockchain">
+            <div class="project-card-top">
+              <span>DApp</span>
+              <strong>04</strong>
+            </div>
+            <div class="project-visual credential-visual" aria-hidden="true">
+              <i></i><i></i><i></i>
+            </div>
+            <h3>Decentralized Academic Bank of Credits using Blockchain</h3>
+            <p>Blockchain-based decentralized application for secure academic skill credentialing, currently in
+              development.</p>
+            <ul>
+              <li>DApp</li>
+              <li>Credentialing</li>
+              <li>Security</li>
+            </ul>
+          </article>
+
+          <article class="project-card reveal-card" data-category="hardware">
+            <div class="project-card-top">
+              <span>Robotics</span>
+              <strong>05</strong>
+            </div>
+            <div class="project-visual robot-visual" aria-hidden="true">
+              <i></i><i></i><i></i>
+            </div>
+            <h3>Automatic Fire Fighting Robot</h3>
+            <p>Arduino-based robot using sensors and motors to detect and extinguish fire automatically.</p>
+            <ul>
+              <li>Arduino</li>
+              <li>Sensors</li>
+              <li>Motors</li>
+            </ul>
+          </article>
+
+          <article class="project-card reveal-card" data-category="hardware">
+            <div class="project-card-top">
+              <span>IoT</span>
+              <strong>06</strong>
+            </div>
+            <div class="project-visual rain-visual" aria-hidden="true">
+              <i></i><i></i><i></i><i></i>
+            </div>
+            <h3>Smart Rain Alert System</h3>
+            <p>Rain detection system with buzzer and LED indicators for immediate real-time alerts.</p>
+            <ul>
+              <li>Detection</li>
+              <li>Buzzer</li>
+              <li>LED</li>
+            </ul>
+          </article>
+
+          <article class="project-card reveal-card" data-category="hardware">
+            <div class="project-card-top">
+              <span>IOT</span>
+              <strong>07</strong>
+            </div>
+            <div class="project-visual robot-visual" aria-hidden="true">
+              <i></i><i></i><i></i>
+            </div>
+            <h3>Smart Coin Counter and Sorting System </h3>
+            <p>An automated system that identifies, counts, sorts, and stores coin denomination data using sensors and embedded control technology.</p>
+            <ul>
+              <li>Arduino</li>
+              <li>Sensors</li>
+              <li>Motors</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <section id="skills" class="section-wrap themed-section skills-showcase py-10 pb-16">
+      <div class="mx-auto max-w-8xl px-10 lg:px-16">
+
+        <div class="text-center">
+          <p class="eyebrow text-5xl font-extrabold text-black">My Skills</p>
+          <h2 class="mx-auto text-black pt-1 font-bold text-xl">Key Expertise and Technical Proficiencies</h2>
+        </div>
+
+        <div class="skill-logo-grid" aria-label="Technical skills">
+          <article class="skill-logo-card">
+            <img src="public/assets/skill-solidity.svg" alt="Solidity icon" />
+            <h3>Solidity</h3>
+          </article>
+          <article class="skill-logo-card">
+            <img src="public/assets/skill-ethereum.svg" alt="Ethereum icon" />
+            <h3>Ethereum</h3>
+          </article>
+          <article class="skill-logo-card">
+            <img src="public/assets/skill-javascript.svg" alt="JavaScript icon" />
+            <h3>JavaScript</h3>
+          </article>
+          <article class="skill-logo-card">
+            <img src="public/assets/skill-react.svg" alt="React icon" />
+            <h3>React</h3>
+          </article>
+          <article class="skill-logo-card">
+            <img src="public/assets/skill-node.svg" alt="Node.js icon" />
+            <h3>Node.js</h3>
+          </article>
+          <article class="skill-logo-card">
+            <img src="public/assets/skill-java.svg" alt="Java icon" />
+            <h3>Java</h3>
+          </article>
+          <article class="skill-logo-card">
+            <img src="public/assets/skill-python.svg" alt="Python icon" />
+            <h3>Python</h3>
+          </article>
+          <article class="skill-logo-card">
+            <img src="public/assets/skill-spring.svg" alt="Spring Boot icon" />
+            <h3>Spring Boot</h3>
+          </article>
+          <article class="skill-logo-card">
+            <img src="public/assets/skill-mysql.svg" alt="MySQL icon" />
+            <h3>MySQL</h3>
+          </article>
+          <article class="skill-logo-card">
+            <img src="public/assets/skill-mongodb.svg" alt="MongoDB icon" />
+            <h3>MongoDB</h3>
+          </article>
+          <article class="skill-logo-card">
+            <img src="public/assets/skill-cpp.svg" alt="C++ icon" />
+            <h3>C++</h3>
+          </article>
+          <article class="skill-logo-card">
+            <img src="public/assets/skill-github.svg" alt="GitHub icon" />
+            <h3>GitHub</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <section id="experience" class="section-wrap themed-section experience-section py-10 pb-14">
+      <div class="mx-auto max-w-8xl px-5 lg:px-8">
+        <div class="text-center">
+          <p class="eyebrow text-5xl font-extrabold text-black">Experience</p>
+          <h2 class="mx-auto text-black pt-1 font-bold text-xl">Internships and Practical Training</h2>
+        </div>
+
+        <div class="experience-timeline">
+          <article class="experience-item">
+            <div class="experience-logo">
+              <img src="public/assets/experience-codsoft.svg" alt="CodSoft logo" />
+            </div>
+            <div class="experience-node" aria-hidden="true"></div>
+            <div class="experience-card">
+              <div class="experience-head">
+                <div>
+                  <h3>Web Development Intern</h3>
+                  <p>CodSoft</p>
+                </div>
+                <span>28 days · Virtual</span>
+              </div>
+              <p>
+                Completed practical web development training focused on building responsive interfaces, structuring
+                front-end pages, and improving hands-on implementation skills with HTML, CSS, and JavaScript.
+              </p>
+            </div>
+          </article>
+
+          <article class="experience-item">
+            <div class="experience-logo">
+              <img src="public/assets/experience-prodigy.svg" alt="Prodigy Infotech logo" />
+            </div>
+            <div class="experience-node" aria-hidden="true"></div>
+            <div class="experience-card">
+              <div class="experience-head">
+                <div>
+                  <h3>CyberSecurity Intern</h3>
+                  <p>Prodigy Infotech</p>
+                </div>
+                <span>28 days · Virtual</span>
+              </div>
+              <p>
+                Gained exposure to cybersecurity fundamentals, safe development practices, common security risks, and
+                structured problem-solving through virtual internship tasks.
+              </p>
+            </div>
+          </article>
+
+          <article class="experience-item">
+            <div class="experience-logo">
+              <img src="public/assets/experience-pinnacle.svg" alt="Pinnacle Labs logo" />
+            </div>
+            <div class="experience-node" aria-hidden="true"></div>
+            <div class="experience-card">
+              <div class="experience-head">
+                <div>
+                  <h3>CyberSecurity Intern</h3>
+                  <p>Pinnacle Labs</p>
+                </div>
+                <span>28 days · Virtual</span>
+              </div>
+              <p>
+                Strengthened cybersecurity awareness with practical learning around threat identification, secure
+                thinking, and technical documentation for security-focused tasks.
+              </p>
+            </div>
+          </article>
+                    <article class="experience-item">
+            <div class="experience-logo">
+              <img src="public/assets/Aenexz.svg" alt="Aenexz logo" />
+            </div>
+            <div class="experience-node" aria-hidden="true"></div>
+            <div class="experience-card">
+              <div class="experience-head">
+                <div>
+                  <h3>Web development Intern</h3>
+                  <p>Aenexz Tech</p>
+                </div>
+                <span>3 months · Virtual</span>
+              </div>
+              <p>
+                    Developed practical web development skills through hands-on experience in designing responsive user interfaces, implementing frontend technologies, and optimizing user experience.          </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <section id="education" class="section-wrap themed-section py-5 pb-8">
+      <div class="mx-auto max-w-8xl px-5 lg:px-8 py-5">
+        <div class="text-center">
+          <p class="eyebrow text-5xl font-extrabold text-black">Education</p>
+          <h2 class="mx-auto text-black pt-1 font-bold pb-5 text-xl">Degrees Received</h2>
+        </div>
+
+        <div class="education-list">
+          <article class="education-item">
+            <div class="education-logo">
+              <img src="public/assets/nec-logo.svg" alt="National Engineering College temporary logo" />
+            </div>
+            <div class="education-card">
+              <div class="education-head">
+                <div>
+                  <h3>National Engineering College, Kovilpatti</h3>
+                  <p>Bachelor of Computer Science and Engineering</p>
+                </div>
+                <span>2023 - 2027</span>
+              </div>
+              <div class="education-body">
+                <p>
+                  Building a strong
+                  foundation in software development, databases, full-stack systems, and blockchain applications with a
+                  CGPA of 8.62.
+                </p>
+                <ul>
+                  <li>Focused on blockchain, smart contracts, Ethereum ecosystem tools, DBMS, and full-stack
+                    development.</li>
+                  <li>Developed projects including Merkle Tree Transaction Verifier, Digital Cinema Management Platform,
+                    and Parent-Teacher Bridge Portal.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="education-item">
+            <div class="education-logo">
+              <img src="public/assets/ksa-logo.svg" alt="Kanchi Sri Sankara Academy temporary logo" />
+            </div>
+            <div class="education-card">
+              <div class="education-head">
+                <div>
+                  <h3>Kanchi Sri Sankara Academy Matric Higher Secondary School</h3>
+                  <p>Higher Secondary Certificate</p>
+                </div>
+                <span>2023</span>
+              </div>
+              <div class="education-body">
+                <p>
+                  Completed higher secondary education with 95.5%, developing strong academic discipline and
+                  problem-solving habits before entering engineering.
+                </p>
+                <ul>
+                  <li>Built a solid base for programming, logical thinking, and engineering coursework.</li>
+                  <li>Moved into computer science with an interest in building useful technology for real-world
+                    problems.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <section id="achievements" class="section-wrap themed-section achievements-section py-10">
+      <div class="mx-auto max-w-8xl px-5 lg:px-24">
+        <div class="text-center">
+          <p class="eyebrow text-5xl font-extrabold text-black">Achievements</p>
+          <h2 class="mx-auto text-black pt-1 font-bold text-xl pb-5">Competition Wins and Innovation Milestones</h2>
+        </div>
+
+        <div class="achievement-grid">
+          <article class="achievement-card achievement-feature-card">
+            <div class="achievement-icon">
+              <img src="public/assets/award-badge.svg" alt="Award badge" />
+            </div>
+            <h3 class="pt-5">Competition Achievements</h3>
+            <p class="achievement-card-subtitle">Robotics, quiz, and coding competitions</p>
+            <div class="achievement-points">
+              <p><strong>1st Prize:</strong> Robotics War Competition, Government College of Engineering, Erode.</p>
+              <p><strong>1st Prize:</strong> Takkar Trivia, Mepco Schlenk Engineering College, Sivakasi.</p>
+              <p><strong>2nd Prize:</strong> Code Relay, National Engineering College, Kovilpatti.</p>
+            </div>
+          </article>
+
+          <article class="achievement-card achievement-feature-card">
+            <div class="achievement-icon">
+              <img src="public/assets/innovation-badge.svg" alt="Innovation badge" />
+            </div>
+            <h3 class="pt-5">Innovation and Hackathons</h3>
+            <p class="achievement-card-subtitle">Ideation, teamwork, and real-world problem solving</p>
+            <div class="achievement-points">
+              <p><strong>InnoThon:</strong> Selected for the 2nd Round in the Ideation Challenge.</p>
+              <p><strong>NASA Space Apps 2025:</strong> Participated in the international challenge.</p>
+              <p><strong>Team Project:</strong> Contributed to “Your Home in Space: The Habitat Layout Creator.”</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <section id="certificates" class="section-wrap themed-section certificates-section py-10 pb-14">
+      <div class="mx-auto max-w-8xl px-5 lg:px-16">
+        <div class="text-center">
+          <p class="eyebrow text-5xl font-extrabold text-black">Certificates</p>
+          <h2 class="mx-auto text-black pt-1 font-bold text-xl">Learning Credentials and Course Milestones</h2>
+        </div>
+
+        <div class="certificate-grid">
+          <article class="certificate-card">
+            <img class="certificate-preview" src="public/assets/cert-cover-blockchain.svg"
+              alt="Blockchain certificate cover" />
+            <span class="certificate-provider">NPTEL</span>
+            <h3>Blockchain and Its Applications</h3>
+            <p>Foundation in blockchain concepts, distributed systems, and practical application areas.</p>
+            <div class="certificate-footer">
+              <div class="certificate-tags"><span>Blockchain</span><span>Core Concepts</span></div>
+              <button class="certificate-view-btn" type="button" data-certificate="public/assets/blockchain and its application nptel.png"
+                data-title="NPTEL - Blockchain and Its Applications">View Certificate</button>
+            </div>
+          </article>
+
+          <article class="certificate-card">
+            <img class="certificate-preview" src="public/assets/cert-cover-solidity.svg"
+              alt="Solidity certificate cover" />
+            <span class="certificate-provider">LinkedIn Learning</span>
+            <h3>Blockchain: Learning Solidity</h3>
+            <p>Smart contract programming fundamentals with Solidity and Ethereum-based development concepts.</p>
+            <div class="certificate-footer">
+              <div class="certificate-tags"><span>Solidity</span><span>Smart Contracts</span></div>
+              <button class="certificate-view-btn" type="button" data-certificate="public/assets/blockchain-Learning solidity.png"
+                data-title="LinkedIn Learning - Blockchain: Learning Solidity">View Certificate</button>
+            </div>
+          </article>
+
+          <article class="certificate-card">
+            <img class="certificate-preview" src="public/assets/cert-cover-web3.svg" alt="Web3 certificate cover" />
+            <span class="certificate-provider">UpGrad</span>
+            <h3>Blockchain Features Simplified</h3>
+            <p>Introductory credential covering blockchain features, architecture, and use cases.</p>
+            <div class="certificate-footer">
+              <div class="certificate-tags"><span>Blockchain</span><span>Basics</span></div>
+              <button class="certificate-view-btn" type="button" data-certificate="public/assets/blokchain.png"
+                data-title="UpGrad - Blockchain Features Simplified">View Certificate</button>
+            </div>
+          </article>
+
+          <article class="certificate-card">
+            <img class="certificate-preview" src="public/assets/cert-cover-developer.svg"
+              alt="Developer training certificate cover" />
+            <span class="certificate-provider">Simplilearn</span>
+            <h3>Blockchain Developer Training Course</h3>
+            <p>Developer-oriented blockchain training focused on implementation and application-building skills.</p>
+            <div class="certificate-footer">
+              <div class="certificate-tags"><span>Developer Track</span><span>DApps</span></div>
+              <button class="certificate-view-btn" type="button" data-certificate="public/assets/blockchain developer training.png"
+                data-title="Simplilearn - Blockchain Developer Training Course">View Certificate</button>
+            </div>
+          </article>
+
+          <article class="certificate-card">
+            <img class="certificate-preview" src="public/assets/cert-cover-hedera.svg" alt="Hedera certificate cover" />
+            <span class="certificate-provider">Hedera</span>
+            <h3>Hashgraph Developer</h3>
+            <p>Credential focused on Hedera Hashgraph fundamentals and decentralized application development.</p>
+            <div class="certificate-footer">
+              <div class="certificate-tags"><span>Hedera</span><span>Web3</span></div>
+              <button class="certificate-view-btn" type="button" data-certificate="public/assets/Hedera .png"
+                data-title="Hedera - Hashgraph Developer">View Certificate</button>
+            </div>
+          </article>
+
+          <article class="certificate-card">
+            <img class="certificate-preview" src="public/assets/cert-cover-database.svg"
+              alt="Database certificate cover" />
+            <span class="certificate-provider">Infosys</span>
+            <h3>Database Management System</h3>
+            <p>Database fundamentals covering structured data, DBMS concepts, and practical data management.</p>
+            <div class="certificate-footer">
+              <div class="certificate-tags"><span>DBMS</span><span>Data</span></div>
+              <button class="certificate-view-btn" type="button" data-certificate="public/assets/Dbms .jpeg"
+                data-title="Infosys - Database Management System">View Certificate</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <div id="certificateModal" class="certificate-modal" aria-hidden="true">
+      <div class="certificate-window" role="dialog" aria-modal="true" aria-labelledby="certificateModalTitle">
+        <div class="certificate-window-bar">
+          <h3 id="certificateModalTitle">Certificate Preview</h3>
+          <button id="certificateClose" type="button" aria-label="Close certificate preview">×</button>
+        </div>
+        <div class="certificate-window-body">
+          <img id="certificateModalImage" src="" alt="Selected certificate preview" />
+        </div>
+      </div>
+    </div>
+
+    <hr class="section-divider" />
+
+    <section id="contact" class="contact-stage contact-lab py-5">
+      <div class="contact-shell">
+        <div class="contact-orbit-panel">
+          <div class="contact-orbit" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="contact-avatar-card">
+            <img src="public/assets/hero-technology.png" alt="Portfolio contact visual" />
+            <div>
+              <strong>Shanmuga Nivetha S</strong>
+              <span>Blockchain & Full-Stack Developer</span>
+            </div>
+          </div>
+
+          <div class="contact-quick-grid">
+            <a href="mailto:nive30410@gmail.com">
+              <span>Email</span>
+              <strong>nive30410@gmail.com</strong>
+            </a>
+            <a href="tel:+919385473874">
+              <span>Phone</span>
+              <strong>+91 93854 73874</strong>
+            </a>
+            <p>
+              <span>Location</span>
+              <strong>Kulasekarapattinam, Thiruchendur</strong>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="contact-message-panel">
+
+          <p class="eyebrow text-5xl text-black">Contact Me</p>
+          <h2 class="contact-title text-2xl">Let’s build something useful together.</h2>
+          <div class="contact-kicker mt-10">
+            <span></span>
+            Available for internships, projects, and collaborations
+          </div>
+          <p class="contact-lead">
+            Send a message about blockchain, full-stack projects, internship openings, hackathons, or technical
+            collaborations. I’ll get back as soon as possible.
+          </p>
+
+          <form id="contactForm" class="contact-form contact-form-modern" method="POST"
+            action="https://formspree.io/f/mjgdlndo">
+            <div class="contact-form-row">
+              <label>
+                <span>Your Name</span>
+                <input name="name" type="text" placeholder="Your Name" autocomplete="name" required />
+              </label>
+              <label>
+                <span>Your Email</span>
+                <input name="email" type="email" placeholder="Your Email" autocomplete="email" required />
+              </label>
+            </div>
+            <label>
+              <span>Your Message</span>
+              <textarea name="message" rows="5" placeholder="Tell me about your idea, role, or opportunity..."
+                required></textarea>
+            </label>
+            <div class="contact-form-actions">
+              <button class="btn-primary contact-submit" type="submit">Send Message</button>
+              <a class="btn-secondary contact-copy" href="public/downloads/Shanmuga_Nivetha_S_Resume.pdf"
+                download>Resume</a>
+            </div>
+            <p id="formStatus" class="contact-form-status" aria-live="polite"></p>
+            <div class="social-row contact-social-row" aria-label="Social media links">
+              <a class="social-icon github" href="https://github.com/nivetha-nive12" target="_blank" rel="noreferrer"
+                aria-label="GitHub">GH</a>
+              <a class="social-icon linkedin" href="https://www.linkedin.com/in/shanmuga-nivetha-s-676919289/
+"
+                target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a>
+              <a class="social-icon mail" href="mailto:nive30410@gmail.com" aria-label="Email">@</a>
+              <a class="social-icon phone" href="tel:+919385473874" aria-label="Phone">☎</a>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+  <hr class="section-divider" />
+  <footer class="border-t border-ink/10 px-5 py-3 text-center text-xl text-black font-bold">
+    <p>© <span id="year"></span> Shanmuga Nivetha S. All Rights Reserved</p>
+  </footer>
+
+  <script src="src/main.js"></script>
+</body>
+
+</html>

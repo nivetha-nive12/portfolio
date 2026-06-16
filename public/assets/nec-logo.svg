@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title">
+  <title id="title">Temporary NEC logo</title>
+  <circle cx="100" cy="100" r="92" fill="#fbfaf7" stroke="#0f766e" stroke-width="8"/>
+  <circle cx="100" cy="100" r="68" fill="#edf4f2" stroke="#c79336" stroke-width="4"/>
+  <path d="M58 122c18-42 66-42 84 0" fill="none" stroke="#0f766e" stroke-width="9" stroke-linecap="round"/>
+  <path d="M70 98l30-32 30 32" fill="none" stroke="#111827" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="100" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="800" fill="#111827">NEC</text>
+</svg>

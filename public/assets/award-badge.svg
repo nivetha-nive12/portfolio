@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">Temporary award badge</title>
+  <circle cx="80" cy="70" r="48" fill="#fbfaf7" stroke="#0f766e" stroke-width="7"/>
+  <path d="M61 118l-12 30 31-16 31 16-12-30" fill="#ef6f5e"/>
+  <path d="M80 38l9 20 21 3-15 15 4 21-19-10-19 10 4-21-15-15 21-3z" fill="#c79336"/>
+</svg>

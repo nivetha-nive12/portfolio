@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title">
+  <title id="title">Pinnacle Labs</title>
+  <circle cx="90" cy="90" r="82" fill="#fbfaf7" stroke="#ef6f5e" stroke-width="8"/>
+  <path d="M40 127L87 38l53 89z" fill="#0f766e"/>
+  <path d="M67 127l25-47 28 47z" fill="#c79336"/>
+  <circle cx="90" cy="63" r="9" fill="#111827"/>
+  <text x="90" y="154" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#111827">Pinnacle</text>
+</svg>
